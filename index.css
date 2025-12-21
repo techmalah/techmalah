@@ -51,6 +51,12 @@ h2 {
         width: 100%; 
         box-sizing: border-box; 
     }
+    h2 {
+        max-width: 10ch;         
+        margin: 0 auto;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
 }
 
 .buttons {
