@@ -8,7 +8,7 @@
     .arabic {
         display: inline-block;
         width: fit-content;
-        max-width: 10ch;
+        max-width: 35ch;
         text-align: center;
         line-height: 1.6;
         word-wrap: break-word;
@@ -52,7 +52,7 @@ h2 {
         box-sizing: border-box; 
     }
     h2 {
-        max-width: 10ch;         
+        max-width: 35ch;         
         margin: 0 auto;
         overflow-wrap: break-word;
         text-align: center;
