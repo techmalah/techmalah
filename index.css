@@ -5,15 +5,9 @@
 
 @media screen and (max-width: 768px) {
     .arabic {
-        display: inline-block;
-        width: fit-content;
-        max-width: 32ch;
-        text-align: center;
-        line-height: 1.6;
-        word-wrap: break-word;
-        margin: 0;
-        padding: 0 10px;
-    }
+        display: inline;
+        word-break: keep-all;
+        white-space: normal;
 }
 
 body {
