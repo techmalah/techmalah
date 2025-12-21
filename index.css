@@ -1,7 +1,16 @@
 .arabic {
     direction: rtl;
     unicode-bidi: isolate;
-    max-width: 32ch;
+}
+
+@media screen and (max-width: 768px) {
+    .arabic {
+        max-width: 32ch; /* 32 حرف */
+        display: inline-block;
+        text-align: center;
+        line-height: 1.6;
+        word-break: break-word;
+    }
 }
 
 body {
