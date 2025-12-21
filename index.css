@@ -4,7 +4,7 @@
     unicode-bidi: isolate;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .arabic {
         display: inline-block;
         max-width: 50ch;
@@ -41,7 +41,7 @@ h2 {
     line-height: 1.4;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
 
     h1,
     h2 {
@@ -96,7 +96,7 @@ button:hover {
     filter: brightness(1.1);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .buttons {
         flex-direction: column;
         align-items: center;
