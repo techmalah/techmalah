@@ -5,9 +5,7 @@
 
 @media screen and (max-width: 768px) {
     .arabic {
-        display: inline;
         word-break: keep-all;
-        white-space: normal;
 }
 
 body {
