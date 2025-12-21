@@ -5,11 +5,14 @@
 
 @media screen and (max-width: 768px) {
     .arabic {
-        max-width: 32ch; /* 32 حرف */
-        display: inline-block;
+         width: fit-content;
+        max-width: 32ch;
+        display: block;
         text-align: center;
         line-height: 1.6;
-        word-break: break-word;
+        word-wrap: break-word;
+        margin: 0 auto 10px auto;
+        padding: 0 10px;
     }
 }
 
