@@ -7,7 +7,6 @@
 @media screen and (max-width: 375px) {
     .arabic {
         display: inline-block;
-        width: fit-content;
         max-width: 50ch;
         text-align: center;
         line-height: 1.6;
