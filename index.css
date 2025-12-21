@@ -1,6 +1,7 @@
 .arabic {
     direction: rtl;
     unicode-bidi: isolate;
+    max-width: 32ch;
 }
 
 body {
