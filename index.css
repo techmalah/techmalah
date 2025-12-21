@@ -1,13 +1,13 @@
-
 .arabic {
     direction: rtl;
     unicode-bidi: isolate;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .arabic {
         display: inline-block;
-        max-width: 50ch;
+        width: fit-content;
+        max-width: 32ch;
         text-align: center;
         line-height: 1.6;
         word-wrap: break-word;
@@ -41,20 +41,14 @@ h2 {
     line-height: 1.4;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
     h1,
     h2 {
         padding-right: 20px;
         padding-left: 20px;
-        width: 100%; 
-        box-sizing: border-box; 
-    }
-    h2 {
-        max-width: 50ch;         
-        margin: 0 auto;
-        overflow-wrap: break-word;
-        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
@@ -79,7 +73,6 @@ button {
     border-radius: 30px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,7 +89,7 @@ button:hover {
     filter: brightness(1.1);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .buttons {
         flex-direction: column;
         align-items: center;
@@ -136,7 +129,6 @@ button:hover {
 .footer-link:hover {
     text-decoration: underline;
 }
-
 
 h1 {
     margin: 0;
